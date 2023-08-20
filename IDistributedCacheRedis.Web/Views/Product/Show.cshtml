@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Show";
+}
+@model Product
+<h1>Show</h1>
+<h1>@ViewBag.Name</h1>
+
+@if (Model != null)
+{
+    <h1>@Model.Id => @Model.Name => @Model.Price</h1>
+}
+
